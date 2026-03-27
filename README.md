@@ -1,63 +1,63 @@
-# JavaScript Learning Project
+<div align="center">
+  <img src="https://img.shields.io/badge/-%3C%2F%3E-212121?style=for-the-badge&color=212121" alt="logo" width="80"/>
+  <h1 style="color:green;">JsLearn</h1>
+  <p>A JavaScript learning project for beginners and intermediate learners.</p>
+  
+  <a href="https://github.com/Antech-greyhat/JsLearn"><img src="https://img.shields.io/badge/Live_Demo-Visit-brightgreen" alt="Live Demo"></a>
+  <a href="https://github.com/Antech-greyhat/JsLearn"><img src="https://img.shields.io/badge/Vercel_App-Deployed-brightgreen" alt="Vercel App"></a>
+  <a href="https://github.com/Antech-greyhat/JsLearn"><img src="https://img.shields.io/badge/API-Reference-brightgreen" alt="API"></a>
+  <a href="https://github.com/Antech-greyhat/JsLearn"><img src="https://img.shields.io/badge/GitHub-Repository-brightgreen" alt="GitHub"></a>
+</div>
 
-This project is designed for learning JavaScript fundamentals and concepts through practical examples and exercises.
-
-## Table of Contents
-- [About](#about)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Learning Topics](#learning-topics)
-- [How to Contribute](#how-to-contribute)
-- [License](#license)
+---
 
 ## About
-This repository contains various JavaScript examples, exercises, and mini-projects to help learners understand core JavaScript concepts. From basic syntax to advanced topics like ES6+ features, DOM manipulation, and asynchronous programming.
+This project is designed for learning JavaScript fundamentals and concepts through practical examples and exercises. It contains various JavaScript examples, exercises, and mini-projects to help learners understand core JavaScript concepts.
 
-## Getting Started
-To get started with this project, simply clone the repository and explore the different directories:
+---
 
-```bash
-git clone https://github.com/Antech-greyhat/JsLearn
-cd JsLearn
+## Features
+| Frontend | Backend API |
+|----------|-------------|
+| HTML5 semantic markup | RESTful API design |
+| CSS3 animations and transitions | JWT authentication |
+| Modern JavaScript (ES6+) | Input validation and sanitization |
+| DOM manipulation and event handling | Error handling and logging |
+| Responsive design principles | API documentation with Swagger |
+
+---
+
+## Architecture
+```
+Browser → Frontend → Flask API Server
 ```
 
-No installation is required as this is a front-end focused learning resource. Simply open the HTML files in your browser to see the examples in action.
+---
 
-## Project Structure
-```
-javascript-learning/
-├── script/           # JavaScript files and exercises
-├── styles/           # CSS files for styling examples
-├── story.html        # Example HTML file demonstrating concepts
-└── README.md         # This file
-```
+## Stack
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</div>
 
-## Learning Topics
-This project covers:
-- JavaScript Basics (variables, data types, operators)
-- Control Flow (conditionals, loops)
-- Functions
-- Arrays and Objects
-- DOM Manipulation
-- Events
-- ES6+ Features (let/const, arrow functions, template literals, destructuring, spread/rest)
-- Asynchronous JavaScript (callbacks, promises, async/await)
-- JSON and AJAX
-- Error Handling
-- Modules
+---
 
-Each topic has corresponding examples in the `script/` directory.
+## Setup
+1. Clone the repository
+   ```bash
+   git clone https://github.com/Antech-greyhat/JsLearn.git
+   cd JsLearn
+   ```
 
-## How to Contribute
-If you'd like to contribute to this learning resource:
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/improvement`)
-3. Make your changes
-4. Commit your changes (`git commit -m 'Add new example'`)
-5. Push to the branch (`git push origin feature/improvement`)
-6. Create a new Pull Request
+2. Backend setup
+   ```bash
+   # This project is frontend-only, no backend setup required
+   echo "Skipping backend setup - frontend focused learning project"
+   ```
 
-Please ensure your examples are clear, well-commented, and follow the existing code style.
-
-## License
-This project is open source and available under the [MIT License](LICENSE).
+3. Frontend setup
+   ```bash
+   # No installation required - simply open HTML files in browser
+   echo "Open story.html or any HTML file in the script/ directory to view examples"
+   ```
