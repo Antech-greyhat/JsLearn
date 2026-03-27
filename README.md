@@ -57,7 +57,13 @@ Browser → Frontend → Flask API Server
    ```
 
 3. Frontend setup
-   ```bash
-   # No installation required - simply open HTML files in browser
-   echo "Open story.html or any HTML file in the script/ directory to view examples"
-   ```
+    ```bash
+    # No installation required - simply open HTML files in browser
+    echo "Open story.html or any HTML file in the script/ directory to view examples"
+    ```
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by <a href="https://github.com/Antech-greyhat">Antech-greyhat</a></p>
+</div>
